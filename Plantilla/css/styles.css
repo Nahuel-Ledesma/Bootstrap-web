@@ -1,0 +1,35 @@
+body{
+	background-image: url(https://img.freepik.com/vector-gratis/ilustracion-fondo-tamano-pantalla-pagina-web-pared-ladrillo-blanco_70155-250.jpg?w=1480);
+	background-size: 100%;
+}
+.parrafo{
+	color: #FFFFFF;
+	height: 60px;
+	font-size: 20px;
+	border-radius: 115px 25px 0px;
+}
+
+.margenes{
+	margin-top: 10em;
+}
+
+.imagen{
+	height: 30%;
+}
+
+.bg-cards{
+	background-color: #98EA52;
+}
+
+.bg-forms{
+	background-color: #98EA52;	
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #333;
+}
+
+
+@media (max-width: 767px){
+	.parrafo{
+		border-radius: 10px 10px 10px 10px;
+	}
+}

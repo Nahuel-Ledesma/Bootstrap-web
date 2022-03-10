@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Plantilla</title>
+
+	<!-- Incluye bootstrap localmente -->
+	<link rel="stylesheet" type="text/css" href="bootstrap-5.1.3/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+<body class="container-fluid">
+	<header>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-secondary rounded-bottom">
+		  <div class="container-fluid">
+		    <a class="navbar-brand">
+		    	<img src="assets/logo.png" alt="logotipo" height="30px">
+			</a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarNav">
+		      <ul class="navbar-nav">
+		        <li class="nav-item">
+		          <a class="nav-link fs-3" aria-current="page" href="index.html">Inicio</a>
+		        </li>
+		        <div class="nav-item">
+				  <a class="nav-link fs-3 dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+				    Contenido
+				  </a>
+				  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+				    <li><a class="dropdown-item" href="#Sandbox">Sandbox</a></li>
+				    <li><a class="dropdown-item" href="#EstrategiaTurnos">Estrategia por Turnos</a></li>
+				  </ul>
+				</div>
+				<li class="nav-item">
+		          <a class="nav-link fs-3" aria-current="page" href="#Agregar">Agregar</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link fs-3" aria-current="page" href="#Desarrollado">Desarrollado por...</a>
+		        </li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+	</header>
+
+
+	<div>
+		<section class="row mt-5 justify-content-center justify-content-md-end">
+			<div class="col-8 col-md-10 mt-5">
+				<p class="parrafo text-center bg-dark overflow-auto">Bienvenidos, en esta página se verán algunos géneros de videojuegos con ejemplos detallados.</p>
+			</div>
+		</section>
+	</div>
+
+
+	<!-- Card y Carousel del primer género -->
+	<svg class="mt-5" viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100px; width: 100%;"><path d="M0.00,149.52 C142.77,-58.69 360.60,163.33 503.94,103.13 L500.00,150.00 L0.00,151.48 Z" style="stroke: none; fill: #98EA52;"></path></svg>
+	<div class="bg-cards">
+		<div class="row justify-content-evenly">
+			<h2 id="Sandbox" class="text-center text-decoration-underline"> Sandbox </h2>
+			<div class="card col-8 col-sm-4 col-lg-5 mt-5 rounded shadow">
+				<div class="row justify-content-center">
+				  	<div id="carouselExampleIndicators" class="carousel slide mt-2 col-sm-7 col-md-9 " data-bs-ride="carousel">
+					  	<div class="carousel-indicators">
+					    	<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					    	<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					    	<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					  	</div>
+					  	<h3 class="text-center text-decoration-underline">Terraria</h3>
+					  	<div class="carousel-inner rounded-3">
+					    	<div class="carousel-item active">
+					      	<img src="assets/terraria.jpg" class="d-block imagen w-100" alt="Imagen_terraria">
+					    </div>
+					    	<div class="carousel-item">
+					      		<img src="assets/terraria2.jpg" class="d-block imagen w-100" alt="Imagen_terraria">
+					    	</div>
+					    	<div class="carousel-item">
+					      		<img src="assets/terraria3.jpg" class="d-block imagen w-100" alt="Imagen_terraria">
+					    	</div>
+					  	</div>
+					  	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+					    	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    	<span class="visually-hidden">Previous</span>
+					  	</button>
+					  	<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+					    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						    <span class="visually-hidden">Next</span>
+					  	</button>
+					</div>
+				</div>
+			  	<div class="card-body">
+			    	<p class="card-text">Terraria es un videojuego de mundo abierto en 2D. Contiene elementos de construcción, exploración, aventura y combate, muy similar a juegos clásicos de la consola Super NES, como por ejemplo la serie Metroid, y a otras entregas más recientes como Minecraft. El juego comienza en un mundo creado de forma aleatoria.</p>
+			  	</div>
+			</div>
+
+			<div class="card col-8 col-sm-4 col-lg-5 mt-5 rounded shadow">
+				<div class="row justify-content-center">
+				  	<div id="carouselExampleIndicators2" class="carousel slide mt-2 col-sm-7 col-md-9 " data-bs-ride="carousel">
+					  	<div class="carousel-indicators">
+					    	<button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					    	<button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					    	<button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					  	</div>
+					  	<h3 class="text-center text-decoration-underline">Ark</h3>
+					  	<div class="carousel-inner rounded-3">
+					    	<div class="carousel-item">
+					      	<img src="assets/Ark.jpg" class="d-block imagen w-100" alt="Imagen_terraria">
+					    </div>
+					    	<div class="carousel-item">
+					      		<img src="assets/Ark2.jpg" class="d-block imagen w-100" alt="Imagen_terraria">
+					    	</div>
+					    	<div class="carousel-item active">
+					      		<img src="assets/Ark3.jpg" class="d-block imagen w-100" alt="Imagen_terraria">
+					    	</div>
+					  	</div>
+					  	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+					    	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    	<span class="visually-hidden">Previous</span>
+					  	</button>
+					  	<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+					    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						    <span class="visually-hidden">Next</span>
+					  	</button>
+					</div>
+				</div>
+			  	<div class="card-body">
+			    	<p class="card-text">Ark: Survival evolved es un juego de supervivencia donde debes cazar, cosechar, crear objetos, cultivar, y construir refugios para sobrevivir. Usa tu habilidad y astucia para matar, domesticar, criar y cabalgar dinosaurios y otras criaturas primitivas.</p>
+			  	</div>
+			</div>
+		</div>
+	</div>
+	<svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 250px; width: 100%;"><path d="M0.00,49.98 C-33.29,203.80 181.15,-50.80 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #98EA52;"></path></svg>
+
+
+
+	<!-- Card y Carousel del segundo género -->
+	<svg class="margenes" viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100px; width: 100%;"><path d="M0.00,149.52 C142.77,-58.69 360.60,163.33 503.94,103.13 L500.00,150.00 L0.00,151.48 Z" style="stroke: none; fill: #98EA52;"></path></svg>
+	<div class="bg-cards">
+		<div class="row justify-content-evenly">
+			<h2 id="EstrategiaTurnos" class="text-center text-decoration-underline"> Estrategia por turnos </h2>
+			<div class="card col-8 col-sm-4 col-lg-5 mt-5 rounded shadow">
+				<div class="row justify-content-center">
+					<div id="carouselExampleIndicators3" class="carousel slide mt-2 col-sm-7 col-md-9" data-bs-ride="carousel">
+					  	<div class="carousel-indicators">		  	  
+					    	<button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						    <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+						    <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					  	</div>
+					  	<h3 class="text-center text-decoration-underline">XCOM 2</h3>
+						<div class="carousel-inner rounded-3">
+						  	<div class="carousel-item active">
+						    	<img src="assets/xcom.jpg" class="d-block imagen w-100" alt="Imagen_xcom">
+						  	</div>
+						  	<div class="carousel-item">
+						    	<img src="assets/xcom2.jpg" class="d-block imagen w-100" alt="Imagen_xcom">
+						  	</div>
+						  	<div class="carousel-item">
+						    	<img src="assets/xcom3.jpg" class="d-block imagen w-100" alt="Imagen_xcom">
+						  	</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">	  
+						  	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						  	<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+				<div class="card-body">
+			    	<p class="card-text">XCOM 2 es la secuela de XCOM: Enemy Unknown, el galardonado juego de estrategia. Han pasado veinte años desde que la humanidad perdió la guerra contra los invasores alienígenas y hay un nuevo orden en la Tierra. Tras años escondidos en la sombra, las fuerzas XCOM deben alzarse y eliminar la ocupación alienígena.</p>
+			    </div>
+			</div>
+
+			<div class="card col-8 col-sm-4 col-lg-5 mt-5 rounded shadow">
+				<div class="row justify-content-center">
+					<div id="carouselExampleIndicators4" class="carousel slide mt-2 col-sm-7 col-md-9 " data-bs-ride="carousel">
+					  	<div class="carousel-indicators">		  	  
+					    	<button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						    <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+						    <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					  	</div>
+					  	<h3 class="text-center text-decoration-underline">Civilization VI</h3>
+						<div class="carousel-inner rounded-3">
+						  	<div class="carousel-item active">
+						    	<img src="assets/CVI.jpg" class="d-block imagen w-100" alt="Imagen_xcom">
+						  	</div>
+						  	<div class="carousel-item">
+						    	<img src="assets/CVI2.jpg" class="d-block imagen w-100" alt="Imagen_xcom">
+						  	</div>
+						  	<div class="carousel-item">
+						    	<img src="assets/CVI3.jpg" class="d-block imagen w-100" alt="Imagen_xcom">
+						  	</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">	  
+						  	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						  	<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+				<div class="card-body">
+			    	<p class="card-text">Sid Meier's Civilization VI o Civilization VI es un videojuego de estrategia por turnos perteneciente a la serie Civilization</p>
+			    </div>
+			</div>
+		</div>
+	</div>
+	<svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 250px; width: 100%;"><path d="M0.00,49.98 C-33.29,203.80 181.15,-50.80 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #98EA52;"></path></svg>
+
+
+	<!-- Formulario para agregar otro juego -->
+	<div id="Agregar" class="row justify-content-center mx-2 bg-forms margenes">
+		<form class="col-8 col-md-5 my-4 needs-validation" novalidate>
+			<h3 class="mb-3">Agrega otro juego a la lista : </h3>
+			<div class="mb-3 position-relative">
+		    	<label for="exampleInputGenre1" class="form-label input-group-text">Género : </label>
+		    	<input type="text" class="form-control" id="exampleInputGenre1" required>
+				<div class="invalid-tooltip">Falta información :c</div>
+		  	</div>
+		  	<div class="mb-3 position-relative">
+		    	<label for="exampleInputTitle1" class="form-label input-group-text">Titulo : </label>
+		    	<input type="text" class="form-control" id="exampleInputTitle1" aria-describedby="TitleHelp" required>
+				<div class="invalid-tooltip">Falta información :c</div>
+		  	</div>
+		  	<div class="mb-3 position-relative">
+		    	<label for="exampleInputDescription1" class="form-label input-group-text">Descripción : </label>
+		    	<textarea id="exampleInputDescription1" class="form-control" rows="5" required></textarea>
+				<div class="invalid-tooltip">Falta información :c</div>
+		  	</div>
+		  	<div class="mb-3 position-relative">
+		    	<label for="exampleInputImage1" class="form-label input-group-text">Imagen/Imágenes : </label>
+		    	<input type="file" class="form-control" id="exampleInputImage1" required>
+				<div class="invalid-tooltip">Falta información :c</div>
+		  	</div>
+		  	<div class="mb-3 position-relative form-check">
+		    	<input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+		    	<label class="form-check-label" for="exampleCheck1">Confirmar información</label>
+				<div class="invalid-tooltip">Falta confirmación :c</div>
+		  	</div>
+
+		  	<button type="submit" class="btn btn-primary">Guardar</button>
+		</form>
+	</div>
+
+
+	<!-- Footer -->
+	<div>
+	  <footer class="d-flex flex-wrap justify-content-between justify-content-sm-center align-items-center py-3 my-4 border-top bg-secondary rounded-3">
+	    <div class="col-md-4 d-flex align-items-center">
+	      <a href="https://getbootstrap.com" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+	        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+	      </a>
+	      <span id="Desarrollado" class="text-white">Página desarrollada por Nahuel Ledesma</span>
+	    </div>
+	  </footer>
+	</div>
+
+	<!-- Bootstrap Bundle localmente -->
+	<script src="bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Scripts -->
+	<script src="js/scripts.js"></script>
+</body>
+</html>
